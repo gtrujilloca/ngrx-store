@@ -3,6 +3,13 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "@facades/*": ["src/app/facades/*"],
+      "@presentation/*": ["src/app/presentation/*"],
+      "@domain/*": ["src/app/domain/*"],
+      "@data/*": ["src/app/data/*"],
+      "@core/*": ["src/app/core/*"],
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
